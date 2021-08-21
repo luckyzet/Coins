@@ -1,0 +1,10 @@
+name: NravCoin
+version: 1.0-BETA
+main: com.luckyzz.nravcoin.NravCoinPlugin
+author: luckyzz
+api-version: 1.16
+commands:
+  givecoin:
+    description: Gives coins to player balance
+  takecoin:
+    description: Takes coins from player balance

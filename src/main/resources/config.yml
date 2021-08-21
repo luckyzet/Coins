@@ -1,0 +1,11 @@
+database:
+  hostname: 127.0.0.1
+  port: 3306
+  database: "coins"
+  username: "root"
+  password: "root"
+
+settings:
+  # Менять по мере онлайна. Примерная формула: количество игроков * 0.7.
+  # Будет влиять на оптимизацию.
+  cacheSize: 7

@@ -1,0 +1,25 @@
+balance.stateComponent:
+  text: "&7Nrav Coins: &6%coins% NC "
+  extra:
+    first:
+      text: "&f(Пополнить)"
+      click:
+        action: OPEN_URL
+        value: "https://nravcraft.pro/donate/"
+
+notify:
+  plusBalance: "&7Вам было зачислено &6%coins% NC&7. Приятной игры!"
+
+onlyPlayer: "&cЭта команда доступна только для игрока!"
+noPermission: "&cУ Вас нет прав!"
+
+giveCoin:
+  usage: "&a/givecoin <player> <amount> - Пополнить баланс указанного игрока на указанную сумму."
+  coinNotNumber: "&cЧисло коинов должно быть числом!"
+  success: "&aВы успешно выдали коины игроку!"
+
+takeCoin:
+  usage: "&a/takecoin <player> <amount> - Забрать у указанного игрока указанное кол-во коинов."
+  coinNotNumber: "&cЧисло коинов должно быть числом!"
+  notEnough: "&cУ игрока не достаточно коинов на балансе!"
+  success: "&aВы успешно забрали коины у игрока!"
